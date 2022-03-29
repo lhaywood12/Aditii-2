@@ -1,0 +1,75 @@
+.top-header {
+    /*border: 2px solid red;*/
+    display: flex;
+    position: relative;
+    padding: 40px;
+}
+
+.title {
+    position: absolute;
+    left: 20px;
+    top: 14px;
+}
+
+.search-box {
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-list {
+   /* border: 2px solid blue;*/
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 15px;
+    background: rgb(55, 196, 243);    
+}
+
+.main {
+   border: 2px solid black;
+    padding: 75px;
+   /* background: rgb(55, 196, 243);*/
+}
+
+.top-main {
+   /*border: 3px solid purple;*/
+   background: rgb(55, 196, 243);
+   padding-top: -40px;
+}
+
+.main-title {
+    /*border: 2px solid orange;*/
+    padding: 20px;
+    background: rgb(26, 170, 218);
+    color: white;
+    text-align: center;
+}
+
+.section1 {
+    /*border: 2px solid brown;*/
+    padding: 30px;
+    
+}
+
+.section2 {
+    /*border: 2px solid gray;*/
+    padding: 30px;
+}
+
+
+.footer {
+    /*border: 2px solid yellow;*/
+    padding: 55px;
+    background: rgb(55, 196, 243);
+    color: white;
+}
+
+.colophon {
+    /*border: 2px solid rebeccapurple;*/
+    background: rgb(26, 170, 218);
+    text-align: center;
+    color: white;
+}
+
